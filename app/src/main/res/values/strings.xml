@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Vote System</string>
+
+    <string name="login_button">Login</string>
+    <string name="registration_button">Registration</string>
+
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="registration_caption">Registration</string>
+
+    <string name="select_gender">Select gender:</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthday">Birthday:</string>
+    <string name="select_date">Select</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="register_btn">Register</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <string name="failure_auth">Login or password is not correctly!</string>
+    <string name="message_empty_fields">Fields can not be empty!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="home_menu_item">Home</string>
+    <string name="vote_list_item">Votes</string>
+    <string name="history_votes_item">History</string>
+
+    <string name="personal_data_txt">Personal data</string>
+
+    <string name="voting_caption">All Voting</string>
+
+    <string name="ok_voting">OK</string>
+
+    <string name="cancel_voting">Cancel</string>
+
+    <string name="open_status">Open</string>
+    <string name="close_status">Closed</string>
+</resources>
