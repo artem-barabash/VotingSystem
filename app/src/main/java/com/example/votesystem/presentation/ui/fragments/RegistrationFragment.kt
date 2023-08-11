@@ -82,7 +82,8 @@ class RegistrationFragment : Fragment() {
             val user = User("first", binding!!.textEmailAddress.text.toString(),binding!!.editFirstName.text.toString(),
                      binding!!.editLastName.text.toString(),binding!!.textViewDate.text.toString(),
                 "","", gender, "",  arrayList)
-            fireBaseManager.addUser(user)
+            //TODO
+            //fireBaseManager.addUser(user)
         }
     }
 

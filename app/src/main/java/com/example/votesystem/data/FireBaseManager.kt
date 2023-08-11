@@ -29,12 +29,14 @@ class FireBaseManager {
 
 
                     for (h in snapshot.children) {
+
+                        val isOpen = h.child("open").value.toString() == "true"
                         list.add(
                             Question(
                                 id,
                                 h.child("number").value.toString(),
                                 h.child("textQuestion").value.toString(),
-                                true,
+                                isOpen,
                                 h.child("time").value.toString()
                             )
                         )
