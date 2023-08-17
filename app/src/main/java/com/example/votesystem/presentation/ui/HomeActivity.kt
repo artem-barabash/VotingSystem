@@ -10,6 +10,7 @@ import com.example.votesystem.databinding.ActivityHomeBinding
 import com.example.votesystem.domain.entities.Answer
 import com.example.votesystem.domain.entities.User
 import com.example.votesystem.domain.use_cases.UserFactory
+import com.example.votesystem.presentation.ui.fragments.HistoryFragment
 import com.example.votesystem.presentation.ui.fragments.HomeFragment
 import com.example.votesystem.presentation.ui.fragments.LoginFragment.Companion.BIRTHDAY
 import com.example.votesystem.presentation.ui.fragments.LoginFragment.Companion.EMAIL
@@ -45,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
             when (it.itemId){
                 R.id.itemHome -> replaceFragment(HomeFragment())
                 R.id.itemVoteList -> replaceFragment(VoteListFragment())
-                //R.id.itemHistory -> replaceFragment()
+                R.id.itemHistory -> replaceFragment(HistoryFragment())
             }
 
             return@setOnItemSelectedListener true
